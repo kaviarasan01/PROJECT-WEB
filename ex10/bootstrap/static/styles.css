@@ -1,0 +1,150 @@
+                * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                }
+
+                body,h1 {
+                font-family: 'Segoe UI', sans-serif;
+                background-color: #fff8f0;
+                color: #333;
+                }
+
+                header {
+                background-color: #2e2e2e;
+                color: white;
+                padding: 1rem 2rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                }
+
+                .logo {
+                font-size: 1.5rem;
+                font-weight: bold;
+                }
+
+                nav ul {
+                list-style: none;
+                display: flex;
+                gap: 1.5rem;
+                }
+
+                nav a {
+                color: white;
+                text-decoration: none;
+                font-weight: 500;
+                }
+
+                .banner {
+                background: url('pasta.jpg') center/cover no-repeat;
+                color: white;
+                padding: 4rem 2rem;
+                text-align: center;
+                }
+
+                .banner-text {
+                background-color: rgba(0, 0, 0, 0.6);
+                display: inline-block;
+                padding: 1rem 2rem;
+                border-radius: 8px;
+                }
+
+                .content {
+                display: flex;
+                justify-content: space-around;
+                padding: 2rem;
+                gap: 2rem;
+                flex-wrap: wrap;
+                }
+
+                .card {
+                background-color: white;
+                padding: 1rem;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                width: 300px;
+                text-align: center;
+                }
+
+                .card img {
+                width: 100%;
+                border-radius: 8px;
+                }
+
+                .card h3 {
+                margin: 1rem 0 0.5rem;
+                }
+
+                .card p {
+                font-size: 0.9rem;
+                margin-bottom: 1rem;
+                }
+
+                .card a {
+                color: #007b5e;
+                text-decoration: none;
+                font-weight: bold;
+                }
+
+                .hours {
+                list-style: none;
+                padding: 0.5rem 0;
+                font-size: 0.9rem;
+                }
+
+                html, body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        }
+
+        .wrapper {
+        flex: 1;
+        }
+
+        /* Footer stays at bottom */
+        footer {
+        text-align: center;
+        padding: 1rem;
+        background-color: #f0f0f0;
+        font-size: 0.9rem;
+        }
+
+        footer span {
+        color: red;
+        font-weight: bold;
+        }
+
+        .contact-section {
+        background-color: #fff8f0;
+        padding: 2rem;
+        max-width: 600px;
+        margin: 2rem auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        text-align: center;
+        }
+
+        .contact-section h2 {
+        font-size: 1.8rem;
+        color: #3e5e52;
+        margin-bottom: 1rem;
+        }
+
+        .contact-section p {
+        font-size: 1rem;
+        color: #333;
+        margin: 0.5rem 0;
+        }
+
+        .contact-section h3 {
+        font-size: 1.2rem;
+        color: #007b5e;
+        margin-top: 1.5rem;
+        }
+
+
+
+                
